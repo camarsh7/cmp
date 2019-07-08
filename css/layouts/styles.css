@@ -22,7 +22,7 @@ p {
  * -- Layout Styles --
  */
 .l-content {
-    margin: 0 auto;
+  margin: 0 auto;
 	padding-top: 3em;
 	border-top: 3px solid white;
 	background: #111;
@@ -30,13 +30,35 @@ p {
 }
 
 .l-box {
-    padding: 0.5em 2em;
+    padding: 0.1em;
+}
+
+.l-box .readme {
+  color: #111;
+  background-color: white;
+  display: table-cell;
+}
+
+.l-box .readme p {
+  line-height: 1em;
 }
 
 .l-box p {
 	font-weight: 300;
 	font-size: 1.2em;
 	line-height: 2em;
+}
+
+.readme-photo {
+  max-width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.readme-text {
+  max-width: 70%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /*
@@ -145,6 +167,7 @@ p {
 
 .cm-main-banner {
   font-size: 2.2em;
+  line-height: 0.5em;
 }
 
 .web {
@@ -311,6 +334,11 @@ p {
     .pricing-table {
         margin-bottom: 0;
     }
+    
+    .pricing-table-header h2 {
+      font-size: 0.8em;
+      padding-top: 1em;
+    }
 
 }
 
@@ -325,4 +353,13 @@ p {
     .banner-head {
         font-size: 3em;
     }
+}
+
+@media (max-width: 767px) {
+  .pricing-table {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  
 }
