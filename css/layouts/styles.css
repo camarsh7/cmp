@@ -33,6 +33,11 @@ p {
     padding: 0.1em;
 }
 
+.about-section {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .l-box .readme {
   color: #111;
   background-color: white;
@@ -40,7 +45,7 @@ p {
 }
 
 .l-box .readme p {
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 .l-box p {
@@ -57,8 +62,24 @@ p {
 
 .readme-text {
   max-width: 70%;
+  width: 66%;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.readme-text p {
+  margin-top: 0;
+}
+
+.readme-heading {
+  text-align: center;
+  margin: 0;
+}
+
+.readme-bio {
+  margin-bottom: 0;
 }
 
 /*
@@ -174,7 +195,11 @@ p {
 	color: 	#71EFD2;
 }
 
-
+hr.style13 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
 
 /*
  * -- PRICING TABLE WRAPPER --
@@ -186,7 +211,7 @@ p {
     margin: 0 auto;
  }
 .pricing-tables {
-    margin-bottom: 3.125em;
+    margin-bottom: 1.5em;
 	margin-top: 2em;
     text-align: center;
 	display: flex;
@@ -314,6 +339,9 @@ p {
     background: #111;
     color: #888;
     text-align: center;
+    font-size: 0.8em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
     .footer a {
         color: #ddd;
